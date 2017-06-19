@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kalvador/AirportOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kalvador/AirportOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/kalvador/AirportOntology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rzeszów"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Start_Point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot40005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boeing_757"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot40001"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Plane"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Flight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot30004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plane"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id_Plane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wrocław"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrow_Body"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbus_A300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot40004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot30003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domestic_Flight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madryt-Barajas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbus_A340"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Plane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kair"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Engins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pekin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chicago-OHare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domestic_Airport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id_Airport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot40003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boeing_707"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date_Of_Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warszawa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot30002"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Id_Flight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#End_Point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gdańsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paryż-Roissy-Charles_de_Gaulle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Area[Ha]"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Max_Seats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boeing_720"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International_Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wide_Body"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot40002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot30001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International_Flight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lot30005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbus_A310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbus_A330"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Domestic_Airport"/>
+        <Class IRI="#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domestic_Flight"/>
+        <Class IRI="#Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International_Airport"/>
+        <Class IRI="#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International_Flight"/>
+        <Class IRI="#Flight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrow_Body"/>
+        <Class IRI="#Plane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wide_Body"/>
+        <Class IRI="#Plane"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Airport"/>
+        <Class IRI="#Domestic_Flight"/>
+        <Class IRI="#International_Flight"/>
+        <Class IRI="#Narrow_Body"/>
+        <Class IRI="#Wide_Body"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Wide_Body"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wide_Body"/>
+        <NamedIndividual IRI="#Airbus_A310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wide_Body"/>
+        <NamedIndividual IRI="#Airbus_A330"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wide_Body"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wide_Body"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Narrow_Body"/>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Narrow_Body"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Narrow_Body"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Narrow_Body"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Narrow_Body"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Chicago-OHare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Denver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Airport"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Kair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Madryt-Barajas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Paryż-Roissy-Charles_de_Gaulle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Pekin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Airport"/>
+        <NamedIndividual IRI="#Rzeszów"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Airport"/>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Airport"/>
+        <NamedIndividual IRI="#Warszawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Airport"/>
+        <NamedIndividual IRI="#Wrocław"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Flight"/>
+        <NamedIndividual IRI="#lot30001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Flight"/>
+        <NamedIndividual IRI="#lot30002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Flight"/>
+        <NamedIndividual IRI="#lot30003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Flight"/>
+        <NamedIndividual IRI="#lot30004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Flight"/>
+        <NamedIndividual IRI="#lot30005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Flight"/>
+        <NamedIndividual IRI="#lot40001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Flight"/>
+        <NamedIndividual IRI="#lot40002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Flight"/>
+        <NamedIndividual IRI="#lot40003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Flight"/>
+        <NamedIndividual IRI="#lot40004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#International_Flight"/>
+        <NamedIndividual IRI="#lot40005"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot30001"/>
+        <NamedIndividual IRI="#Wrocław"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot30001"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot30001"/>
+        <NamedIndividual IRI="#Warszawa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot30002"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot30002"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot30002"/>
+        <NamedIndividual IRI="#Wrocław"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot30003"/>
+        <NamedIndividual IRI="#Rzeszów"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot30003"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot30003"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot30004"/>
+        <NamedIndividual IRI="#Warszawa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot30004"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot30004"/>
+        <NamedIndividual IRI="#Rzeszów"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot30005"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot30005"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot30005"/>
+        <NamedIndividual IRI="#Wrocław"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot40001"/>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot40001"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot40001"/>
+        <NamedIndividual IRI="#Chicago-OHare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot40002"/>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot40002"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot40002"/>
+        <NamedIndividual IRI="#Kair"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot40003"/>
+        <NamedIndividual IRI="#Paryż-Roissy-Charles_de_Gaulle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot40003"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot40003"/>
+        <NamedIndividual IRI="#Madryt-Barajas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot40004"/>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot40004"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot40004"/>
+        <NamedIndividual IRI="#Pekin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#End_Point"/>
+        <NamedIndividual IRI="#lot40005"/>
+        <NamedIndividual IRI="#Denver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Plane"/>
+        <NamedIndividual IRI="#lot40005"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Start_Point"/>
+        <NamedIndividual IRI="#lot40005"/>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airbus_A300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">266</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airbus_A310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airbus_A310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airbus_A310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airbus_A310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airbus_A330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airbus_A330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airbus_A330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airbus_A330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">335</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airbus_A340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">375</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airbus_A350_XWB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">366</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1978</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Airco_DH_121"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Boeing_707"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">219</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Boeing_720"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">219</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Boeing_757"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">295</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1960</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Engins"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Plane"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Max_Seats"/>
+        <NamedIndividual IRI="#Bristol_Britannia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">139</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Chicago-OHare"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Chicago-OHare"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2610</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Dallas-Fort_Worth"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Denver"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Denver"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13726</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Gdańsk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">240</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Kair"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Kair"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2550</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Madryt-Barajas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Madryt-Barajas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Paryż-Roissy-Charles_de_Gaulle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Paryż-Roissy-Charles_de_Gaulle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Pekin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Pekin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2330</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Rzeszów"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Rzeszów"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Szanghaj-Pudong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Warszawa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Warszawa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">830</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Airport"/>
+        <NamedIndividual IRI="#Wrocław"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Area[Ha]"/>
+        <NamedIndividual IRI="#Wrocław"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">464</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot30001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot30002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot30003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot30004"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot30005"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot40001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot40002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot40003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot40004"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Id_Flight"/>
+        <NamedIndividual IRI="#lot40005"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60005</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#End_Point"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Plane"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Start_Point"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#End_Point"/>
+        <Class IRI="#Airport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Plane"/>
+        <Class IRI="#Plane"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Start_Point"/>
+        <Class IRI="#Airport"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <DataProperty IRI="#Plane"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Engins"/>
+        <DataProperty IRI="#Plane"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Id_Airport"/>
+        <DataProperty IRI="#Airport"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Id_Flight"/>
+        <DataProperty IRI="#Flight"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Id_Plane"/>
+        <DataProperty IRI="#Plane"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Max_Seats"/>
+        <DataProperty IRI="#Plane"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Area[Ha]"/>
+        <DataProperty IRI="#Airport"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <Class IRI="#Plane"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Engins"/>
+        <Class IRI="#Plane"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id_Airport"/>
+        <Class IRI="#Airport"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id_Flight"/>
+        <Class IRI="#Flight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Id_Plane"/>
+        <Class IRI="#Plane"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Max_Seats"/>
+        <Class IRI="#Plane"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Area[Ha]"/>
+        <Class IRI="#Airport"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date_Of_Production"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Engins"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id_Airport"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id_Flight"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Id_Plane"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Max_Seats"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Area[Ha]"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
